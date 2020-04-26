@@ -1,7 +1,7 @@
 # PIPENV + SPARK  + JUPYTER EN WINDOWS 10
 Estructura para trabajo de Organizacion y Datos
 
-# Paquetes añadidos:
+## Paquetes añadidos:
 	jupyter = "*"
 	pandas = "*"
 	numpy = "*"
@@ -13,11 +13,11 @@ Estructura para trabajo de Organizacion y Datos
 	py4j = "*"
 	pyspark = "*"
 
-# *REQUERIMIENTOS:
+### *REQUERIMIENTOS:
 	python_version = "3.7"
 	java = 1.8
 	
-# *INSTALACIÓN DEL REPOSITORIO [PYTHON + SPARK + HERAMIENTAS]
+## *INSTALACIÓN DEL REPOSITORIO [PYTHON + SPARK + HERAMIENTAS]
 	
 	0° Instalar python , link: https://www.python.org/downloads/release/python-370/  //importante 3.7.0 o modificar el pipfile para otra versión.
 	1° Instalar Java (1.8 recomendable)
@@ -51,7 +51,7 @@ Estructura para trabajo de Organizacion y Datos
 		  8.2 - Ejecutar:
                     > jupyter notebook
 
-# *INICIOS POSIBLES PARA SPARK
+## *INICIOS POSIBLES PARA SPARK
 	
 		import findspark 
 		findspark.init('C:\Spark\spark-3.0.0-preview2-bin-hadoop2.7')   //busca el entorno de Spark
@@ -62,19 +62,19 @@ Estructura para trabajo de Organizacion y Datos
 		except NameError:
 			sc = pyspark.SparkContext('local[*]')
 			
-# *INSTALACIÓN DE PAQUETES ADICIONALES:
+## *INSTALACIÓN DE PAQUETES ADICIONALES:
 	Sempre luego de iniciar pipenv shell en la carpeta raiz del repo clonado:
 		pipenv install 'nombre_del_paquete'
 	Recomendación:instalar los paquetes en el entorno nuevo sin estar usando previamente ningun notebook abierto o script de python.
 		
-# *¿PORQUÉ USAR PIPENV (ENTORNO VIRTUAL)?:
+## *¿PORQUÉ USAR PIPENV (ENTORNO VIRTUAL)?:
 	- Porque es más fácil ejecutarlo e instalarlo.
 	- NO rompe nada del python instalado base en el sistema o corrompe paquetes previamente instalados.
 	- Se puede dockerizar , empaquetar con yam, npm, versionar, etc.
 	- Porque yo decido que versiones y cuando usarlas (modificando el pipfile o el package.json).
 	- Porque es una buena práctica y punto (Salvo que lo uses unicamente en tu vida para cursar Datos).
 
-# *EXTRAS:
+### *EXTRAS:
 	Recomiendo en lugar de Jupyter o Jupyter Labs utilizar 'VS Code' para utilizar el entorno del repo. 
 	El plugin permite elegir el entorno virtual que nosotros creamos como Kernel o cualquier otro.
 	La interfaz es mucho mas dósil.
