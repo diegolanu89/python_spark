@@ -77,4 +77,4 @@ Estructura para trabajo de Organizacion y Datos
 ### *EXTRAS:
 	Recomiendo en lugar de Jupyter o Jupyter Labs utilizar 'VS Code' para utilizar el entorno del repo. 
 	El plugin permite elegir el entorno virtual que nosotros creamos como Kernel o cualquier otro.
-	La interfaz es mucho mas dósil.
+	La interfaz es mucho mas dósil y NOS AHORRAMOS DE INICIAR POR CONSOLA SIEMPRE DESDE EL ENTORNO A JUPYTER.
