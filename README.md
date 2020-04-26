@@ -1,4 +1,4 @@
-# PIPENV + SPARK  + JUPYTER EN WINDOWS 10
+# PIPENV+SPARK+JUPYTER+MACHING-LEARNING EN WINDOWS 10
 Estructura para trabajo de Organizacion y Datos
 
 ## Paquetes añadidos:
@@ -12,6 +12,8 @@ Estructura para trabajo de Organizacion y Datos
 	findspark = "*"
 	py4j = "*"
 	pyspark = "*"
+	scikit-learn = "*"
+	tensorflow = "*"
 
 ### *REQUERIMIENTOS:
 	python_version = "3.7"
@@ -44,7 +46,7 @@ Estructura para trabajo de Organizacion y Datos
 		    EJ: >c:\el_repo		   //cualquier dirección donde este la carpeta raiz del repo
 			 6.1  >pipenv shell    //crea un entorno virtual o lo inicia si ya esta creado.
 			 6.2  >pipenv install  //actualizará y descargará todas las dependencias necesarias 
-							               //que ya estan cargadas en el pipfile del repo (ej;pandas,numpy,jupyter....)
+							       //que ya estan cargadas en el pipfile del repo (ej;pandas,numpy,jupyter...)
 	7° Reiniciar la PC
 	8° Al terminar el proceso podras ejecutar jupyter:
       8.1 - Repetir el paso 6.1 unicamente (para volver a iniciar el entorno virtual)

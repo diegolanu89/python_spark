@@ -16,6 +16,8 @@ scipy = "*"
 findspark = "*"
 py4j = "*"
 pyspark = "*"
+scikit-learn = "*"
+tensorflow = "*"
 
 [requires]
 python_version = "3.7"
