@@ -81,12 +81,12 @@ shapely = "*"
 	- Porque es una buena práctica y punto (Salvo que lo uses unicamente en tu vida para cursar Datos).
 
 ### *EXTRAS:
-   #	VSCode
+###	VSCode
 	Recomiendo en lugar de Jupyter o Jupyter Labs utilizar 'VS Code' para utilizar el entorno del repo. 
 	El plugin permite elegir el entorno virtual que nosotros creamos como Kernel o cualquier otro.
 	La interfaz es mucho mas dósil y NOS AHORRAMOS DE INICIAR POR CONSOLA SIEMPRE DESDE EL ENTORNO A JUPYTER.
 
-# 	GEOS + basemap:
+### 	GEOS + basemap:
 	1 - Instalar todos los paquetes con el ejecutable en la carpeta packs:  osgeo4w-setup-x86_64
 	2 - Download basemap‑1.2.1‑cp37‑cp37m‑win_amd64.whl in https://www.lfd.uci.edu/~gohlke/pythonlibs/
 	2 - En el directorio de la descarga : 
