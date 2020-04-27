@@ -1,2 +1,4 @@
 .vscode/*
 packs/basemap/*
+.venv/*
+notebooks/.ipynb_checkpoints/*

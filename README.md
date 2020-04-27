@@ -92,3 +92,8 @@ shapely = "*"
 	2 - En el directorio de la descarga : 
 			pip install basemap‑1.2.1‑cp37‑cp37m‑win_amd64.whl
 
+### Posible error de ambiente:
+	1- setx /M PIPENV_VENV_IN_PROJECT 1 (con permisos de admin el cmd)
+	2 - python -m venv .venv 
+	3 - pipenv shell
+	4 - pipenv install
