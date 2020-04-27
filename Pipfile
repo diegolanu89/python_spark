@@ -18,6 +18,10 @@ py4j = "*"
 pyspark = "*"
 scikit-learn = "*"
 tensorflow = "*"
+pyproj = "*"
+geos = "*"
+six = "*"
+shapely = "*"
 
 [requires]
 python_version = "3.7"
