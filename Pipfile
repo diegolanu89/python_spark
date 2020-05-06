@@ -22,6 +22,8 @@ pyproj = "*"
 geos = "*"
 six = "*"
 shapely = "*"
+pycountry = "*"
+plotly = "*"
 
 [requires]
 python_version = "3.7"
